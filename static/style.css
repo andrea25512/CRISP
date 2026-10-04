@@ -1,0 +1,13 @@
+body { font-family: system-ui, sans-serif; max-width: 900px; margin: 0 auto; padding: 2rem 1rem; line-height: 1.6; color: #222; }
+header { text-align: center; }
+h1 { font-size: 2rem; margin-bottom: .5rem; }
+.authors a { color: #1a5fb4; text-decoration: none; }
+.affil { color: #666; margin-top: 0; }
+.links a { display: inline-block; margin: .25rem; padding: .4rem 1rem; border-radius: 999px; background: #222; color: #fff; text-decoration: none; }
+.links a:hover { background: #444; }
+section { margin: 2.5rem 0; }
+video, img { width: 100%; border-radius: 6px; }
+.caption { text-align: center; color: #666; font-size: .9rem; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; }
+pre { background: #f4f4f4; padding: 1rem; overflow-x: auto; border-radius: 6px; }
+footer { text-align: center; color: #888; font-size: .85rem; }
