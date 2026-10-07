@@ -114,6 +114,7 @@ section:not(.teaser):not(#abstract):not(#problem) {
 @media (prefers-reduced-motion: reduce) { .fly { animation: none; } }
 
 h3 { font-size: 1.1rem; color: var(--fg); }
+#results h3 { text-align: center; font-size: 1.4rem; margin: 2rem 0 .75rem; }
 
 .authors {
   margin: 0;
@@ -253,26 +254,36 @@ svg.inline-figure:focus-visible { outline: 3px solid var(--accent); outline-offs
 .tablist {
   display: flex;
   flex-wrap: wrap;
-  gap: .35rem;
-  border-bottom: 1px solid var(--border);
+  justify-content: center;
+  gap: .5rem;
   margin-bottom: 1.25rem;
 }
 
+.tablist::before {
+  content: "Choose a backbone to explore";
+  flex: 0 0 100%;
+  text-align: center;
+  font-size: .8rem;
+  font-weight: 600;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
 .tab {
-  background: transparent;
-  border: 1px solid transparent;
-  border-bottom: none;
-  border-radius: 6px 6px 0 0;
-  padding: .5rem .85rem;
-  font-size: .88rem;
-  color: var(--muted);
+  background: #fff;
+  border: 1px solid var(--btn-bg);
+  border-radius: 8px;
+  padding: .45rem 1.1rem;
+  font-size: 1rem;
+  color: var(--btn-bg);
   cursor: pointer;
 }
 
 .tab[aria-selected="true"] {
-  color: var(--fg);
-  background: var(--card-bg);
-  border-color: var(--border);
+  color: var(--btn-fg);
+  background: var(--btn-bg);
+  border-color: var(--btn-bg);
   font-weight: 600;
 }
 
