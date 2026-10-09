@@ -10,7 +10,7 @@
 
 [![Project Page](https://img.shields.io/badge/Project-Page-1f72b8?style=for-the-badge)](https://andrea25512.github.io/CRISP/)
 [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b?style=for-the-badge)](https://andrea25512.github.io/CRISP/static/paper.pdf)
-[![arXiv](https://img.shields.io/badge/arXiv-TBA-lightgrey?style=for-the-badge)](#)
+[![arXiv](https://img.shields.io/badge/arXiv-2610.11376-b31b1b?style=for-the-badge)](https://arxiv.org/abs/2610.11376)
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-TBA-lightgrey?style=for-the-badge)](#)
 
 <img src="static/teaser_full.svg" width="70%" alt="CRISP teaser (paper Figure 1): ground truth (blue), baseline VAE decoder (green) and CRISP (red)">
