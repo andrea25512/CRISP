@@ -63,3 +63,7 @@ See the [project page](https://andrea25512.github.io/CRISP/) for videos and inte
   year      = {2026}
 }
 ```
+
+## License
+
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). See [LICENSE](LICENSE) for the full text.
